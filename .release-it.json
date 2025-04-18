@@ -5,5 +5,12 @@
   },
   "github": {
     "release": true
+  },
+  "plugins": {
+    "@release-it/bumper": {
+      "in": "deno.json",
+      "out": "deno.json",
+      "path": "version"
+    }
   }
 }
