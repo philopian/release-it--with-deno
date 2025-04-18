@@ -1,0 +1,11 @@
+{
+  "version": "0.0.0",
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "release": "npx release-it"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "release-it": "npm:release-it@^19.0.1"
+  }
+}
